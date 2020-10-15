@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: webapp
+  description: Some application
+  tags:
+    - nodejs
+    - data
+  annotations:
+    github.com/project-slug: backstage-playground/webapp
+
+spec:
+  type: service
+  lifecycle: experimental
+  owner: example@stefanbuck.com
