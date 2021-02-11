@@ -10,4 +10,5 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
+  system: f2g
   owner: example@stefanbuck.com
